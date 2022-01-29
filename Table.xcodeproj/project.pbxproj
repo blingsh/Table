@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4332B58327A52CC900494190 /* smile.png in Resources */ = {isa = PBXBuildFile; fileRef = 4332B58227A52CC900494190 /* smile.png */; };
 		4363B89627A51FE000CCE322 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4363B89527A51FE000CCE322 /* AppDelegate.swift */; };
 		4363B89827A51FE000CCE322 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4363B89727A51FE000CCE322 /* SceneDelegate.swift */; };
 		4363B89A27A51FE000CCE322 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4363B89927A51FE000CCE322 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4332B58227A52CC900494190 /* smile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smile.png; sourceTree = "<group>"; };
 		4363B89227A51FE000CCE322 /* Table.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Table.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4363B89527A51FE000CCE322 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4363B89727A51FE000CCE322 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 				4363B89927A51FE000CCE322 /* ViewController.swift */,
 				4363B89B27A51FE000CCE322 /* Main.storyboard */,
 				4363B89E27A51FE200CCE322 /* Assets.xcassets */,
+				4332B58227A52CC900494190 /* smile.png */,
 				4363B8A027A51FE200CCE322 /* LaunchScreen.storyboard */,
 				4363B8A327A51FE200CCE322 /* Info.plist */,
 			);
@@ -127,6 +130,7 @@
 			files = (
 				4363B8A227A51FE200CCE322 /* LaunchScreen.storyboard in Resources */,
 				4363B89F27A51FE200CCE322 /* Assets.xcassets in Resources */,
+				4332B58327A52CC900494190 /* smile.png in Resources */,
 				4363B89D27A51FE000CCE322 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

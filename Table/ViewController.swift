@@ -19,12 +19,17 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 10
+        return 5
+    }
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return 3
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = UITableViewCell(style: .default, reuseIdentifier: "myCell")
+        let cell = UITableViewCell(style: .subtitle, reuseIdentifier: "myCell")
         cell.textLabel?.text = "\(indexPath.row)"
+        cell.detailTextLabel?.text = indexPath.description
+        cell.imageView?.image = UIImage(named: "smile.png")!
         return cell
     }
 
