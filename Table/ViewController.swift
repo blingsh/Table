@@ -26,12 +26,19 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = UITableViewCell(style: .subtitle, reuseIdentifier: "myCell")
-        cell.textLabel?.text = "\(indexPath.row)"
-        cell.detailTextLabel?.text = indexPath.description
-        cell.imageView?.image = UIImage(named: "smile.png")!
+        //let cell = UITableViewCell(style: .subtitle, reuseIdentifier: "myCell")
+        //cell.textLabel?.text = "\(indexPath.row)"
+        //cell.detailTextLabel?.text = indexPath.description
+        //cell.imageView?.image = UIImage(named: "smile.png")!
+        //return cell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "myCell", for: indexPath) as!
+            MyTableViewCell
+        cell.myLable.text = indexPath.description
         return cell
     }
-
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        print(indexPath.row)
+    }
+    
 }
 
